@@ -3,6 +3,7 @@ import { CityList } from "./CityList.js"
 import { Assignments } from "./Assignments.js"
 import { RegisteredPets } from "./RegisteredPets.js"
 
+
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
@@ -22,9 +23,9 @@ const applicationHTML = `
     </section>
 </article>
 
-<article class="Assignments">
+<article class="assignments">
     <h2>Current Assignments</h2>
-        ${Assignments()}
+    ${Assignments()}
 </article>
 `
 
